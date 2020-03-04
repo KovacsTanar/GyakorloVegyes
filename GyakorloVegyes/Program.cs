@@ -45,10 +45,11 @@ namespace GyakorloVegyes
             double kerulet = 2 * r * Math.PI;
             double terulet = Math.Pow(r, 2) * Math.PI;
 
-            Console.WriteLine("A Kerülete: {0:0.00}",kerulet);
-            Console.WriteLine("A Területe: {0:0.00}",terulet);
+            Console.WriteLine("A Kerülete: {0:0.00}", kerulet);
+            Console.WriteLine("A Területe: {0:0.00}", terulet);
 
-            Console.ReadKey();
+           Console.ReadKey();
+
         }
 
         static void Feladat3()
